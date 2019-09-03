@@ -1,17 +1,17 @@
 <template>
-  <div class="container">
-    <section>
-      <button
-        class="button is-primary is-medium"
-        @click="isCardModalActive = true"
-      >Launch card modal (keep scroll)</button>
+<div>
+  <div class="line"></div>
+  <div class="portfolio">
+    
+    <h1 class="title">Portfolio</h1>
 
+    <section>
+      <div class="is-twitter is-medium" @click="isCardModalActive = true">open modal</div>
       <b-modal :active.sync="isImageModalActive">
         <p class="image is-4by3">
           <img src="/static/img/placeholder-1280x960.png" />
         </p>
       </b-modal>
-
       <b-modal :active.sync="isCardModalActive" :width="640" scroll="keep">
         <div class="card">
           <div class="card-image">
@@ -46,6 +46,7 @@
       </b-modal>
     </section>
   </div>
+  </div>
 </template>
 
 <script>
@@ -59,5 +60,22 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss" scoped>
+.portfolio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+.line{
+  height: 1px;
+  width: 100%;
+  background-color:black;
+  margin-top: -50px;
+  margin-bottom: 20px;
+}
 </style>

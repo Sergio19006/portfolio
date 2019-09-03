@@ -1,9 +1,13 @@
 <template>
   <div class="container">
-    <hooper>
+    <hooper :progress="true" :autoPlay="true" :playSpeed="2400">
       <slide class="slide">
           <img src="../assets/database.png" alt="databases">
           knowlege in SQL and no-SQL databases
+      </slide>
+       <slide class="slide">
+        <img src="../assets/graduate.png" alt="devops">
+        Computer Sciense degree
       </slide>
       <slide class="slide">
         <img src="../assets/devops.png" alt="devops">
@@ -37,7 +41,7 @@ export default {
     Hooper,
     Slide,
     HooperPagination
-  }
+  },
 };
 </script>
 

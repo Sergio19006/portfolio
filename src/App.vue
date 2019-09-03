@@ -1,19 +1,32 @@
 <template>
   <div id="app">
     <div class="container">
-        <div class="container has-text-centered">
-          <b-navbar class="is-dark">
-            <template slot="brand">
-              <b-navbar-item tag="router-link" :to="{ path: '/' }">
-                <img class="img-header" src="./assets/WebDevelopment.png" />
-              </b-navbar-item>
-            </template>
-            <template slot="end">
-              <b-navbar-item href="#">Title</b-navbar-item>
-              <b-navbar-item href="#">knowledge</b-navbar-item>
-              <b-navbar-item href="#">Portfolio</b-navbar-item>
-            </template>
-          </b-navbar>
+      <div class="container has-text-centered">
+        <b-navbar fixed-top=true transparent=true class="is-dark is-transparent">
+          <template slot="end">
+            <b-navbar-item class="center">
+              <img class="img-header" src="./assets/WebDevelopment.png" />
+            </b-navbar-item>
+          </template>
+
+          <template slot="end">
+            <b-navbar-item class="is-white">
+              <a href="#Title" v-smooth-scroll>Title</a>
+            </b-navbar-item>
+            <b-navbar-item>
+              <a href="#Studies" v-smooth-scroll>
+                Studies and
+                knowledge
+              </a>
+            </b-navbar-item>
+            <b-navbar-item>
+              <a href="#Portfolio" v-smooth-scroll>Portfolio</a>
+            </b-navbar-item>
+            <b-navbar-item>
+              <a class="margin"></a>
+            </b-navbar-item>
+          </template>
+        </b-navbar>
       </div>
 
       <section class="section" id="Title">
@@ -57,8 +70,24 @@ export default {
   align-items: center;
 }
 
+.center{
+  margin-right: 800px;
+}
+
 .img-header {
   width: 50px;
+}
+.margin {
+  margin-right: 200px;
+  visibility: hidden;
+}
+
+b-navbar-item:hover{
+  color: $primary;
+}
+
+a:hover {
+  color: green;
 }
 
 // Set your colors
@@ -112,7 +141,7 @@ $colors: (
 );
 
 // Links
-$link: $primary;
+$link: $light;
 $link-invert: $primary-invert;
 $link-focus-border: $primary;
 
