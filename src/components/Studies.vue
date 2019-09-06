@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <hooper :progress="true" :autoPlay="true" :playSpeed="2400">
+    <hooper :autoPlay="true" :playSpeed="3000">
       <slide class="slide">
           <img src="../assets/database.png" alt="databases">
           knowlege in SQL and no-SQL databases

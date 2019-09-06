@@ -2,7 +2,7 @@
   <div id="app">
     <div class="container">
       <div class="container has-text-centered">
-        <b-navbar fixed-top=true transparent=true class="is-transparent">
+        <b-navbar id="navbar" fixed-top=true transparent=true class="is-transparent">
           <template slot="end">
             <b-navbar-item class="center">
               <img class="img-header" src="./assets/WebDevelopment.png" />
@@ -11,16 +11,16 @@
 
           <template slot="end">
             <b-navbar-item>
-              <a class="hover" href="#Title" v-smooth-scroll>Title</a>
+              <a class="hover" href="#Title" v-smooth-scroll="{ duration: 1000}">Title</a>
             </b-navbar-item>
             <b-navbar-item>
-              <a class="hover" href="#Studies" v-smooth-scroll>
+              <a class="hover" href="#Studies" v-smooth-scroll="{ duration: 1000}">
                 Studies and
                 knowledge
               </a>
             </b-navbar-item>
             <b-navbar-item>
-              <a class="hover" href="#Portfolio" v-smooth-scroll>Portfolio</a>
+              <a class="hover" href="#Portfolio" v-smooth-scroll="{ duration: 1000}">Portfolio</a>
             </b-navbar-item>
             <b-navbar-item>
               <a class="margin"></a>
@@ -34,7 +34,7 @@
           <Title />
         </div>
       </section>
-
+      <br>
       <section class="section" id="Studies">
         <Studies />
       </section>

@@ -1,5 +1,7 @@
 <template>
   <div>
+    <br />
+    <br />
     <div class="line"></div>
     <div class="portfolio">
       <h1>Portfolio</h1>
@@ -17,13 +19,19 @@
           <div class="card">
             <div class="card-image">
               <figure class="image is-2by1">
-                <img src="../assets/AB1.png" alt="Image" />
+                <a href="https://github.com/Sergio19006/E10" target="_blank">
+                  <img src="../assets/AB1.png" alt="Image" />
+                </a>
               </figure>
               <figure class="image is-2by1">
-                <img src="../assets/AB2.png" alt="Image" />
+                <a href="https://github.com/Sergio19006/E10" target="_blank">
+                  <img src="../assets/AB2.png" alt="Image" />
+                </a>
               </figure>
               <figure class="image is-2by1">
-                <img src="../assets/AB3.png" alt="Image" />
+                <a href="https://github.com/Sergio19006/E10" target="_blank">
+                  <img src="../assets/AB3.png" alt="Image" />
+                </a>
               </figure>
             </div>
           </div>
@@ -72,7 +80,9 @@
           <div class="card">
             <div class="card-image">
               <figure class="image is-2by1">
-                <img src="../assets/BC1.png" alt="Image" />
+                <a href="https://github.com/fullstacktf/BcloudFrontend" target="_blank">
+                  <img src="../assets/BC1.png" alt="Image" />
+                </a>
               </figure>
             </div>
           </div>
@@ -93,13 +103,19 @@
         <br />
         <div class="content">
           Some pictures of a project that i made in a 3 month long fullstack course organizated by EOI. It was created in Vuejs and Node with express.
-          I did all the backend and the deploy in the Digital Ocean services using also Cloudfare. Also in this project we create own 
-          CDN of images and epubs for the 
+          I did all the backend and the deploy in the Digital Ocean services using also Cloudfare. Also in this project we create own
+          CDN of images and epubs for the
           In this project also i did the conextion in the frontend and backend.
           <strong>
-            <a href="https://github.com/fullstacktf/BcloudFrontend" target="_blank">Project's Frontend Repository</a>
-            <br>
-            <a href="https://github.com/fullstacktf/BcloudBackend" target="_blank">Project's Backend Repository</a>
+            <a
+              href="https://github.com/fullstacktf/BcloudFrontend"
+              target="_blank"
+            >Project's Frontend Repository</a>
+            <br />
+            <a
+              href="https://github.com/fullstacktf/BcloudBackend"
+              target="_blank"
+            >Project's Backend Repository</a>
           </strong>.
           <br />
           <small>14 Aug 2019</small>
@@ -110,7 +126,6 @@
         </div>
       </div>
     </div>
-
   </div>
 </template>
 
@@ -119,7 +134,7 @@ export default {
   data() {
     return {
       isCardModalActiveAdventure: false,
-      isCardModalActiveBcloud: false,
+      isCardModalActiveBcloud: false
     };
   }
 };
