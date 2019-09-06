@@ -2,7 +2,7 @@
   <div id="app">
     <div class="container">
       <div class="container has-text-centered">
-        <b-navbar fixed-top=true transparent=true class="is-dark is-transparent">
+        <b-navbar fixed-top=true transparent=true class="is-transparent">
           <template slot="end">
             <b-navbar-item class="center">
               <img class="img-header" src="./assets/WebDevelopment.png" />
@@ -10,17 +10,17 @@
           </template>
 
           <template slot="end">
-            <b-navbar-item class="is-white">
-              <a href="#Title" v-smooth-scroll>Title</a>
+            <b-navbar-item>
+              <a class="hover" href="#Title" v-smooth-scroll>Title</a>
             </b-navbar-item>
             <b-navbar-item>
-              <a href="#Studies" v-smooth-scroll>
+              <a class="hover" href="#Studies" v-smooth-scroll>
                 Studies and
                 knowledge
               </a>
             </b-navbar-item>
             <b-navbar-item>
-              <a href="#Portfolio" v-smooth-scroll>Portfolio</a>
+              <a class="hover" href="#Portfolio" v-smooth-scroll>Portfolio</a>
             </b-navbar-item>
             <b-navbar-item>
               <a class="margin"></a>
@@ -86,12 +86,8 @@ export default {
   visibility: hidden;
 }
 
-b-navbar-item:hover{
-  color: $primary;
-}
-
-a:hover {
-  color: green;
+.hover:hover{
+  color: $grey-light;
 }
 
 // Set your colors
@@ -99,6 +95,10 @@ $primary: #8c67ef;
 $primary-invert: findColorInvert($primary);
 $twitter: #4099ff;
 $twitter-invert: findColorInvert($twitter);
+
+$navbar-item-color: white;
+$navbar-background-color: $dark;
+
 
 // Setup $colors to use as bulma classes (e.g. 'is-twitter')
 $colors: (
