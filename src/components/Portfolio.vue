@@ -6,7 +6,7 @@
     </div>
     <!-- Adventure book section -->
     <div class="columns is-centered is-desktop is-vcentered">
-      <div class="column title column is-7">
+      <div class="column title is-7">
         <div>
           <figure class="box image is-16by9">
             <img src="../assets/AB1.png" alt="Image" />
@@ -29,7 +29,7 @@
           </div>
         </b-modal>
       </div>
-      <div class="column card-content box is-5">
+      <div class="column card-content box is-4">
         <div class="media">
           <div class="media-left">
             <figure class="image is-64x64">
@@ -78,7 +78,7 @@
           </div>
         </b-modal>
       </div>
-      <div class="column card-content box is-5">
+      <div class="column card-content box is-4">
         <div class="media">
           <div class="media-left">
             <figure class="image is-64x64">

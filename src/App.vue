@@ -70,6 +70,10 @@ export default {
   align-items: center;
 }
 
+.container {
+  max-width: 90%;
+}
+
 .center{
   margin-right: 800px;
 }
