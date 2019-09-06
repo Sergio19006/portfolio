@@ -51,9 +51,11 @@
         </div>
         <br />
         <div class="content">
-          Some pictures of a project that i made for the university. It was created in Vuejs and Node with express.
-          I was one of the team, and me and one partner did all the backend and the deploy in the university services.
-          In this project also i did the conextion in the frontend and backend. And i help in the design of the UI.
+          These are project pictures made by my collegue and me for the University. 
+          It was created in Vuejs, Node with express and MongoDB.
+          I was a member of a team and we programmed all ghe backend and the deploy for the university services.
+          Moreover, I stablished the connection between frontend and backend. 
+          Finally I was one of the people helping to design de UI.
           <strong>
             <a href="https://github.com/Sergio19006/E10" target="_blank">Project's Repository</a>
           </strong>.
@@ -102,10 +104,13 @@
         </div>
         <br />
         <div class="content">
-          Some pictures of a project that i made in a 3 month long fullstack course organizated by EOI. It was created in Vuejs and Node with express.
-          I did all the backend and the deploy in the Digital Ocean services using also Cloudfare. Also in this project we create own
-          CDN of images and epubs for the
-          In this project also i did the conextion in the frontend and backend.
+          Here we are the pictures of the web application which took three months in the fullstack course set up by EOI.
+          It was created in Vuejs, Node with express and MongoDB.
+          All backend and the deploy in Digital Ocean services is programmed by myself making use of Cloudfare.
+          Also in this project we create own
+          CDN of images and epubs using NGINX for the multimedia of the project.
+          We implemented an algorithm which recommends books for users according to their likes.
+          Connection between frontend and backend is made by myself as well.
           <strong>
             <a
               href="https://github.com/fullstacktf/BcloudFrontend"
