@@ -51,10 +51,10 @@
         </div>
         <br />
         <div class="content">
-          These are project pictures made by my collegue and me for the University. 
+          These are project pictures made by my collegue and me for the University.
           It was created in Vuejs, Node with express and MongoDB.
           I was a member of a team and we programmed all ghe backend and the deploy for the university services.
-          Moreover, I stablished the connection between frontend and backend. 
+          Moreover, I stablished the connection between frontend and backend.
           Finally I was one of the people helping to design de UI.
           <strong>
             <a href="https://github.com/Sergio19006/E10" target="_blank">Project's Repository</a>
@@ -86,6 +86,18 @@
                   <img src="../assets/BC1.png" alt="Image" />
                 </a>
               </figure>
+              <video autoplay muted loop class="video">
+                <source src="../assets/BC2.mp4" type="video/mp4" />
+              </video>
+              <video autoplay muted loop class="video">
+                <source src="../assets/BC3.mp4" type="video/mp4" />
+              </video>
+              <video autoplay muted loop class="video">
+                <source src="../assets/BC4.mp4" type="video/mp4" />
+              </video>
+              <video autoplay muted loop class="video">
+                <source src="../assets/BC5.mp4" type="video/mp4" />
+              </video>
             </div>
           </div>
         </b-modal>
